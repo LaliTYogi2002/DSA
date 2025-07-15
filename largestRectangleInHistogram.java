@@ -11,7 +11,7 @@ class largestRectangleInHistogram {
     int ans = -1 ; 
         for(int i = 0 ;i<heights.length ; i++){
             // here is the use of nearest right and left small for calculate the width
-            // logic is that till which index we can height[i] right and left.
+            // logic is that till which index we can height[i] right and left. 
             int widht = nrs[i] - nls[i] - 1;
             ans = Math.max(widht*heights[i], ans); 
         }
