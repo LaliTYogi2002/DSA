@@ -1,4 +1,6 @@
-class largestRectangleInHistogram {
+import java.util.Stack;
+
+class LargestRectangleInHistogram {
     public int largestRectangleArea(int[] heights) {
         
         int nrs[] = nearestRightSmallerInderArray(heights);

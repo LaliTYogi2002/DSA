@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class MaximalRectangle{
     public int maximalRectangle(char[][] matrix) {
         int n = matrix.length;
