@@ -1,4 +1,6 @@
-public class MinimumWIndowSubstring{
+import java.util.HashMap;
+
+public class MinimumWindowSubstring{
    public String minWindow(String s, String t) {
         if(s.length() < t.length()){
             return "";
